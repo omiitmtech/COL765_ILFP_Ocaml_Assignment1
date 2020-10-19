@@ -10,6 +10,6 @@ Assignment 1: Sets This functional programming assignment requires you to repres
 
 3) We are going to import the functions implemented by you using:
 
-# use "2020MCS3432.ml"
+#use "2020MCS3432.ml"
 
 After importing this, we should be able to use the functions implemented by you.

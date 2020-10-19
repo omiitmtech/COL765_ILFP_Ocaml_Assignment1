@@ -1,0 +1,32 @@
+Assignment 1: Sets
+This functional programming assignment requires you to represent finite sets in two different ways, using two different data types:  (a) OCaml lists, and (b) OCaml functions:
+
+(a) a set is represented as a list without duplicates.
+
+You need to implement the following operations, and you should use list functions such as map, fold, filter etc.
+
+emptyset, which represents the empty set. 
+member x s, which returns true if and only if x is in s.
+union s1 s2, which returns the union of sets s1 and s2
+intersection s1 s2, which returns the intersection of s1 and s2
+difference s1 s2, which returns the set consisting of elements of s1 which are not in s2
+equal s1 s2, which returns true if and only if  set s1 is equal to set s2.
+
+subset s1 s2, which returns true if and only if s1 is a subset of s2
+
+power s, which returns the set of subsets of s
+product s1 s2, which returns the cartesian product of s1 and s2.
+
+
+(b) a set is represented by its characteristic function -- x \in s iff  f_s (x) = true (where f_s is the characteristic function of set s)
+
+emptyset, which represents the empty set.
+member x s, which returns true if and only if x is in s.
+union s1 s2, which returns the union of sets s1 and s2
+intersection s1 s2, which returns the intersection of s1 and s2
+difference s1 s2, which returns the set consisting of elements of s1 which are not in s2
+product s1 s2, which returns the cartesian product of s1 and s2.
+Think how you might be able to implement 
+subset s1 s2, which returns true if and only if s1 is a subset of s2
+equal s1 s2, which returns true if and only if  set s1 is equal to set s2.
+power s, which returns the set of subsets of s
